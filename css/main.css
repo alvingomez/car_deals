@@ -45,16 +45,36 @@ body{
 .header{
   clip-path: polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
   color:var(--mainWhite);
+  overflow:hidden;
 }
 
 .height-max{
+
   background:url(../img/headerBcg.jpeg);
   min-height:calc(100vh - 76px);
   background-position:center;
   background-size:cover;
   background-attachment:fixed;
   background-repeat:no-repeat;
+  animation-name:zoom;
+  animation-duration:20s;
+  animation-delay:3s;
+  animation-iteration-count:infinite;
 }
+
+@keyframes zoom {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.2) translateX(-5%);
+  }
+  100%{
+    transform: scale(1);
+  }
+
+}
+
 
 .title{
   font-weight:700;
