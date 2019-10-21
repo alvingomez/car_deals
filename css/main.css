@@ -35,6 +35,7 @@ body{
   background:var(--mainWhite);
   z-index:999;
 }
+/*this is the property to be use with JS*/
 .hidePreloader{
   display:none!important;
 }
