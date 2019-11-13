@@ -292,3 +292,12 @@ body{
   background:transparent;
   border-color:var(--mainYellow);
 }
+.contact-btn{
+  text-transform:uppercase;
+  color:var(--mainYellow);
+  border-color: var(--mainYellow);
+}
+.contact-btn:hover{
+  background:var(--mainYellow);
+  color:var(--mainBlack);
+}
