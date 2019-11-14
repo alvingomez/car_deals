@@ -301,3 +301,10 @@ body{
   background:var(--mainYellow);
   color:var(--mainBlack);
 }
+/*services section*/
+.services{
+  position: relative;
+  min-height: 85vh;
+  max-width: 95vw;
+  margin: 0 auto;
+}
