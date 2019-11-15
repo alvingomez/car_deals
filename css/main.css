@@ -322,3 +322,12 @@ body{
   height:100%;
   object-fit:cover;
 }
+.video-overlay{
+  position: absolute;   
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:var(--transparentBlue);
+  z-index:-2;
+}
