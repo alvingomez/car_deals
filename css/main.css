@@ -345,3 +345,16 @@ body{
   font-size:4rem;
   color:var(--mainYellow);
 }
+/*footer*/
+.footer{
+background:var(--mainBlack);
+}
+.footer-icon{
+  font-size:1.5rem;
+  text-decoration:none;
+  color:var(--mainYellow);
+  transition:all 1s ease-in-out;
+}
+.footer-icon:hover{
+  color:var(--mainBlue);
+}
